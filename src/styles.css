@@ -1,0 +1,8 @@
+.area{
+    border: 1px solid black !important;
+    border-radius: 2px;
+    padding: 60px;
+    /* height: 100vh; */
+    /* width: 1000px; */
+}
+

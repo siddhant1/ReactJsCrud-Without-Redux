@@ -12,7 +12,7 @@ export class ItemFields extends React.Component{
         var item = new Item(this.name.value, this.product.value, this.desc.value, this.id);
         this.props.change(item);
         this.id++;
-   }
+    }
     render() { 
         return (
         <form className="form-group area" >
@@ -22,8 +22,10 @@ export class ItemFields extends React.Component{
         <input ref={(input) => this.product = input} className="form-control" type="text" placeholder="Enter productName" />
         <h2>Enter Product Description </h2>
         <input ref={(input) => this.desc = input} className="form-control" type="text" placeholder="Enter description" />
-        <br />
+        <br/>
         <button onClick={this.createProduct} type="button" className="btn btn-primary">Save</button>
+        <button onClick={this.props.ChooseSelect} className = "btn btn-danger">DELETE</button>        
+                         
     </form>
         );
     }

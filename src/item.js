@@ -4,6 +4,7 @@ class Item {
         this.name = name;
         this.product = product;
         this.description = description;
+        this.css = false;
     }
 }
 

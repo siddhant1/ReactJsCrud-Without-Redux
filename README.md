@@ -1,2 +1,5 @@
-# ReactJsCrud-Without-Redux
-# Do npm install to install all the dependies or You can use create-react-app
+# DO AN NPM INSTALL TO INSTALL ALL THE DEPENDENCIES
+
+#THIS IS MADE USING CREATE-REACT-APP 
+
+##CREATOR : SIDDHANT
